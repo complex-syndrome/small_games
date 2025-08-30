@@ -23,7 +23,7 @@
     - Current program state
 
 - Spaceship
-    - Mixins (Plugins that include certain functionalities)
+    - Mixins (Allow features to be reused between objects)
     - Finding assets
     - Reset / Reuse objects instead of destroying and recreating them
     - Drawing text and importing images
