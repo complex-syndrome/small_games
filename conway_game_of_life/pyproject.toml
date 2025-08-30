@@ -1,0 +1,24 @@
+[project]
+name = "Conway_Game_of_Life"
+version = "0.1.0"
+description = "Conway's Game of Life"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygame>=2.6.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.12.7",
+]
+
+[tool.ruff]
+lint.extend-select = [
+    "PTH", "UP", "RUF", "FIX", "ISC", 
+    "INT", "ICN", "PIE", "RET", "SLF", 
+    "SIM", "TID", "TD", "TC", "FLY", 
+    "I", "N", "PERF", "E", "W"
+    # "T20", "DOC", "ANN"
+]
+# lint.ignore = ["T201"]
